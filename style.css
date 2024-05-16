@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poetsen one';
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.title {
+    text-align: center;
+}
+
+.header {
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: blanchedalmond;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    margin: 40px;
+    padding: 40px;
+}
+
+.hpims {
+    border-radius: 25px;
+    border: solid 1px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block ;
+    text-align: center;
+    margin-top: 10px;
+}
+
+a:hover {
+    background-color: burlywood;
+    transform: scale(1.2);
+}
+
+.content {
+    max-width: 800px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 20px ;
+    background-color: burlywood;
+    border-radius: 10% / 50%;
+}
+
+aside {
+    width: 100px;
+    flex: 1;
+    margin-left: 20px;
+    border: dotted 10px black;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 10% / 50%;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 8px;
+    margin: 20px;
+    max-width: 1200px;
+    border-left: groove 2px beige;
+    border-right: groove 2px beige;
+}
+
+ul {
+    list-style-type: none;    
+}
+
+.left,
+.right {
+    display: flex;
+    padding: 12px;
+    flex: 1;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+.left {
+    flex-shrink: 0;
+    border-right: groove 2px beige;       
+}
+
+.material-symbols-outlined {
+    font-size: 50px;
+}
+
+.navig {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
